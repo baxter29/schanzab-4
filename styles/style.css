@@ -1,0 +1,670 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a , a:hover
+{
+	text-decoration: none;
+}
+
+body, html
+{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	height: 100%;
+}
+
+
+
+
+/* helpers */
+
+.f-b
+{
+	font-weight: bold;
+}
+
+
+.white
+{
+	color: #fff;
+}
+
+.text-up
+{
+	text-transform: uppercase;
+}
+
+.text-center
+{
+	text-align: center;
+}
+/* helpers end */
+
+.header-article
+{
+	width: 100%;
+	background: url(../img/background.jpg) no-repeat  center top / cover;
+	box-sizing: border-box;
+
+}
+
+.nav-menu .nav-menu__item ,
+.nav-menu-mobile li
+{
+	list-style: none;
+	
+}
+
+.nav-menu .nav-menu__item
+{
+	padding: 10px 15px;
+}
+
+.nav-menu .nav-menu__item a
+{
+	color: #fff;
+}
+
+.logo a
+{
+	font-family: 25px/22px "Myriad Pro" , sans-serif;
+font-weight: bold;
+line-height: 22px;
+text-transform: uppercase;
+/* Text style for "K, reditka" */
+letter-spacing: 5px;
+color: #fff;
+}
+
+.section-header
+{
+	height: 400px;
+}
+
+.section-header__title
+{
+	padding-top: 50px;
+}
+
+.section-header__paragraph
+{
+	padding: 0 17%;
+}
+
+.header-line
+{
+	height: 1px;
+    background-color: #ffffff;
+    margin: 25px auto 15px auto;
+    
+}
+
+.header-article__link
+{
+	padding: 25px 0;
+}
+
+.our-partners
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.partners-gallery
+{
+	display: flex;
+	align-items: center;
+	
+}
+
+.gallery__item {
+
+    padding-left: 23%;
+
+}
+
+
+
+
+.nav-menu
+{
+	display: flex;
+}
+
+.mobile-menu
+{
+	display: none;
+}
+
+
+.mobile-menu-burger
+{
+	cursor: pointer;
+	margin-top: 10px;
+	
+}
+.mobile-menu-burger span
+{
+	width: 30px;
+	height: 3px;
+	background: #fff;
+	display: block;
+	margin: 4px 0;
+	transition: 150ms;
+	border-radius: 3px;
+}
+
+.section-blue
+{
+	padding: 0 5%;
+}
+
+.section-blue-left-block
+{
+	flex-basis: 58%;
+}
+
+
+
+.section-blue
+{
+	
+	position: relative;
+    background-image: linear-gradient(to top, #1542f8 0%, #081a5e 100%);
+
+}
+
+.section-blue-sub-title
+{
+	font: 13px/22px 'Gadugi';
+	
+}
+
+.section-blue-title
+{
+	font: 30px/30px 'Gadugi';
+	
+	
+}
+
+.section-blue-paragraph
+{
+	font: 11px/13px 'Gadugi';
+	padding: 15px 0 20px 0;
+	
+	
+}
+
+.section-blue-sub-title ,
+.section-blue-title ,
+.section-blue-paragraph
+{
+	font-weight: 500;
+}
+
+.section-blue-sub-title 
+{
+	padding: 40px 0 5px 0;
+}
+
+.section-blue-next-page
+{
+	padding: 40px 8px 0 7px;
+}
+
+.section-blue-next-page
+{
+	border-bottom: 2px solid #fff;
+}
+
+.section-blue-next-page>a
+{
+	color: #fff;
+
+}
+
+.section-blue-three-cards-background
+{
+	width: 483px;
+	height: 103px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	-webkit-background-size: 86%;
+	background-size: 86%;
+	position: absolute;
+	bottom: -7px;
+}
+
+.section-1
+{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.section-1-block-card
+{
+	max-width: 1050px;
+	width:70%;
+	border: 2px solid #000;
+	margin: 40px 0;
+	margin-right: 5%;
+	padding: 25px 3% 25px 11%;
+	position: relative;
+
+}
+
+.section-1-block-card-title
+{
+	color: #000000;
+	font-family: Gadugi;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 17.5px;
+	text-transform: uppercase;
+}
+
+.section-1-block-card-sub-title
+{
+	color: #000000;
+	font-family: Gadugi;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 33.5px;
+}
+
+.section-1-block-card-sub-description
+{
+	color: #000000;
+	font-family: Gadugi;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+	/* Text style for "M, it der" */
+	font-family: Gadugi;
+
+}
+
+.section-1-block-card-button
+{
+	background-color: #1542f8;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	padding: 5px 15px;
+	font-weight: bold;
+	margin: 15px 0 10px 0;
+	opacity: 0.8;
+	transition: 300ms;
+}
+
+.section-1-block-card-button:hover
+{
+	opacity: 1;
+}
+
+.section-1-side-img 
+{
+	width: 336px;
+	height: 230px;
+}
+
+.section-2-side-img
+{
+	width: 577px;
+	height: 366px;
+	
+}
+
+.section-blue,
+.section-2 ,
+.section-3 ,
+.section-4 
+{
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.section-2
+{
+	height: 338px;
+	border: 4px solid #1542f8;
+	background-color: #ebebeb;
+	position: relative;
+	
+}
+
+.section-3
+{
+	
+	margin-top: 50px;
+}
+
+.section-3-block-card-title
+{
+
+font-family: "Microsoft Sans Serif";
+font-size: 37px;
+font-weight: bold;
+}
+.section-1-side-img 
+{
+	position: absolute;
+	top: 37px;
+    left: -230px;
+}
+
+.section-2-side-img
+{
+	position: relative;
+    left: -29px;
+    top: -17px;
+}
+
+
+.section-3-side-img
+{
+	width: 461px;
+	height: 329px;
+	position: relative;
+}
+
+.section-1-side-img ,
+.section-2-side-img,
+.section-3-side-img,
+.section-4-side-img
+{
+	
+	background-repeat: no-repeat;
+	-webkit-background-size: 90%;
+	background-size: 90%;
+	background-position: center center;	
+}
+
+.section-3-side-img
+{
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.section-2-left-block ,
+.section-2-right-block
+{
+	width: 45%;
+}
+
+.section-2-right-block
+{
+	margin: auto 0;
+}
+
+.section-2-block-card-title
+{
+	
+	font-family: "Microsoft Sans Serif";
+	font-size: 37px;
+	font-weight: bold;
+	line-height: 45px;
+}
+
+
+.section-2,
+.section-3 ,
+.section-4
+{
+	color: #000000;
+}
+
+.section-2-block-card-sub-description
+{
+	
+	font-family: "Microsoft Sans Serif";
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	/* Text style for "S, chauen" */
+	letter-spacing: 1.3px;
+}
+
+.section-2-block-card-title>span
+{
+	color: #1542f8;
+}
+
+.section-3-icons
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.section-3-right-block
+{
+	margin: auto 0;
+	padding: 0 4%;
+}
+
+.section-3-icons .section-3-icons-figure
+{
+	
+	padding: 15px 15px;
+	transition: 500ms;
+
+}
+
+.section-3,
+.section-3-icons .section-3-icons-figure:hover
+{
+	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+
+.section-4
+{
+	margin-top: 50px;
+}
+
+.section-4-left-block
+{
+	padding: 0 5% 0 0;
+}
+
+.section-4-side-img
+{
+	width: 518px;
+	height: 344px;
+	position: relative;
+
+
+}
+
+.section-4-side-img img
+{
+		height: auto !important;
+  width: 100% !important;
+  /* еще больше контроля с max-width */
+  max-width: 720px !important;
+}
+
+.section-4-block-card-title
+{
+
+font-family: "Microsoft Sans Serif";
+font-size: 37px;
+font-weight: bold;
+line-height: 45px;
+}
+
+.section-4-block-card-sub-description
+{
+	font-family: "Microsoft Sans Serif";
+font-size: 13px;
+font-weight: bold;
+line-height: 16px;
+}
+
+.section-4-left-block
+{
+	margin: auto 0;
+}
+
+.header-menu
+{
+	padding-top: 7px;
+}
+
+@media screen and (max-width: 1017px)
+{
+	.our-partners
+	{
+		flex-direction: column;
+
+	}
+
+	.gallery__item:first-child
+	{
+		padding-left: 0;
+	}
+
+	.gallery__item
+	{
+		padding-left: 3%;
+	}
+	.header-article__section
+	{
+		text-align: center;
+	}
+
+	.section-blue
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section-blue-three-cards-background
+	{
+		position: relative;
+	}
+
+	.section-blue-next-page
+	{
+		padding: 0 0 0 0;
+	}
+
+	.section-1-block-card
+	{
+		
+		width: 100%;
+		border: 2px solid #000;
+		margin: 40px 5%;
+		padding: 25px 5% 25px 5% !important;
+		position: relative;
+	}
+
+	.section-1-side-img
+	 {
+	    position: relative;
+	    top: -10px;
+	    left: -15px;
+	  }
+
+	  .section-2
+	  {
+	  	display: flex;
+	  	flex-direction: column;
+	  	height: auto;
+	  	margin: 0 5%;
+	  	overflow-x: hidden;
+	  }
+	  .section-2-right-block
+	  {
+	  	margin: auto 20px;
+	  }
+
+	  .section-2-block-card-title
+	  {
+	  	font-size: 32px;
+	  }
+	  .section-2-side-img
+	  {
+	  	top: -18px;
+	  }
+
+	  .section-2-left-block, .section-2-right-block
+		{
+			width: 85%;
+		}
+
+		.section-3
+		{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			padding: 0 5%;
+		}
+
+		.section-3-side-img
+		{
+			margin: 25px auto;
+		}
+
+		.section-3-side-img {
+
+		    width: auto;
+		}
+		.section-4 
+		{
+		  padding: 0 4%;
+		  display: flex;
+		  flex-direction: column;
+		}
+		.section-4-left-block {
+          order: 1;
+	      }
+
+	      .section-4-block-card-title
+	      {
+	      	margin: 25px auto;
+	      }
+
+	      .section-4-side-img {
+
+		    
+		    background-position: left center;
+
+    }
+}
+
+@media screen and (max-width: 764px)
+{
+	.mobile-menu
+	{
+		display: block;
+	}
+	.nav-menu
+	{
+		display: none !important;
+	}
+
+	.section-blue-three-cards-background
+	{
+		-webkit-background-size: 86%;
+		background-size: 69%;
+		position: relative;
+		bottom: -16px;
+	}
+
+	.section-3-block-card-title
+	{
+		font-size: 32px;
+	}
+
+
+
+}
+
+
