@@ -13,6 +13,7 @@ body, html
 	font-family: 'Open Sans';
 	font-size: 16px;
 	height: 100%;
+	
 }
 
 
@@ -324,10 +325,19 @@ color: #fff;
 .section-3 ,
 .section-4 
 {
-	max-width: 1200px;
+	
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
+}
+
+
+.section-2 ,
+.section-3 ,
+.section-4 
+{
+	max-width: 1200px;
+	
 }
 
 .section-2
@@ -466,6 +476,7 @@ font-weight: bold;
 .section-4
 {
 	margin-top: 50px;
+	padding: 0 1%;
 }
 
 .section-4-left-block
@@ -517,12 +528,228 @@ line-height: 16px;
 	padding-top: 7px;
 }
 
+.bottom-description
+{
+	width: 100%;
+	background-color: #edeeee;
+
+}
+
+.section-box
+{
+	background-color: #1d1d1d;
+}
+
+.bottom-contain ,
+.footer-contain-top ,
+.footer-contain-bottom
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.bottom-description-text
+{
+	color: #7f7f7f;
+font-family: 'Gadugi';
+font-size: 12px;
+font-weight: bold;
+line-height: 15px;
+padding: 20px 5% 20px 5%;
+}
+
+.footer
+{
+	width: 100%;
+	background: #ffffff;
+}
+
+.footer-contain-top ,
+.footer-contain-bottom
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+
+.footer-contain-top 
+{
+	justify-content: center;
+}
+
+.footer-contain-bottom
+{
+	justify-content: space-between;
+}
+
+.footer-contain-top>p
+{
+	color: #7f7f7f;
+	font-family: Gadugi;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+.footer-icon
+{
+	margin: 0 4%;
+}
+
+
+
+.footer-item
+{
+	cursor: pointer;
+	color: #000000;
+	font-family: Gadugi;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	margin: 0 21%;
+}
+
+.footer-contain-wrapper
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-logo
+{
+	color: #1d45f0;
+	font-family: "Iskoola Pota";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 17.75px;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+
+}
+
+.footer-right-block
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-texts
+{
+	position: relative;
+}
+
+
+.section-box
+{
+	background-color: #e7e7e8;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.section-box
+
+
+.box-switcher-pages
+{
+	display: flex;
+	
+}
+.page-activec
+{
+	background: #1d1d1d;
+	color: #fff;
+}
+
+.page-active::before
+{
+	background: #1542f8;
+	width:50px;
+	height: 7px;
+	display: block;
+	position: relative;
+
+}
+
+.box-left-page ,
+.box-right-page
+{
+	width: 50%;
+	align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+
+
+}
+
+.box-container-menu
+{
+	display: flex;
+	background-color: #333333;
+	font-family: "Minion Pro";
+	font-size: 25px;
+	font-weight: bold;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.box-menu__item
+{
+	padding: 0 20px;
+	color: #6a6a6a;
+}
+
+.box-container
+{
+	background: #000;
+	padding: 50px 100px;
+}
+
+.box-menu-item__active
+{
+	color: #fff;
+	background: #1542f8;
+	border-left: 1px solid #fff;
+	border-right:  1px solid #fff;
+}
+
+.box-menu-blocks
+{
+	display: flex;
+}
+
+.box-menu__block
+{
+	background: #fff;
+	border-right: 1px solid #aeafaf;
+}
 @media screen and (max-width: 1017px)
 {
-	.our-partners
+	.our-partners 
 	{
 		flex-direction: column;
 
+	}
+
+	.footer-figure-contain
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		justify-content: space-between;
+	}
+
+     .footer-icon:first-child
+     {
+     	margin-left: 0;
+     }
+	.footer-icon
+	{
+		margin-left: 3%;
 	}
 
 	.gallery__item:first-child
@@ -561,7 +788,7 @@ line-height: 16px;
 		width: 100%;
 		border: 2px solid #000;
 		margin: 40px 5%;
-		padding: 25px 5% 25px 5% !important;
+		padding: 25px 8% 25px 8% !important;
 		position: relative;
 	}
 
@@ -631,12 +858,10 @@ line-height: 16px;
 	      	margin: 25px auto;
 	      }
 
-	      .section-4-side-img {
-
-		    
+	      .section-4-side-img 
+	      {    
 		    background-position: left center;
-
-    }
+		   }
 }
 
 @media screen and (max-width: 764px)
@@ -662,7 +887,12 @@ line-height: 16px;
 	{
 		font-size: 32px;
 	}
-
+    .footer-contain-top ,
+    .footer-icon
+    {
+		display: block;
+		text-align: center;
+    }
 
 
 }
